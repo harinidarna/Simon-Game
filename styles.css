@@ -1,0 +1,42 @@
+body{
+    background-color: #79155B;
+    text-align: center;
+}
+h1{
+    font-family: 'Exo', sans-serif;
+    color: #FFBA86;
+    font-size: 65px;
+}
+.container{
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.btn{
+    height: 180px;
+    width: 180px;
+    border-radius: 15px;
+    border:7px solid;
+    margin: 10px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.pressed{
+    box-shadow: whitesmoke;
+}
+.game-over{
+    background-color: red;
+}
